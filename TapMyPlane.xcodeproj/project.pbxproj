@@ -7,15 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030CB3441C6C6AD2004E0F3A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030CB3431C6C6AD2004E0F3A /* QuartzCore.framework */; };
+		032E5E5D1C76C14300CBF7C7 /* Collideable.m in Sources */ = {isa = PBXBuildFile; fileRef = 032E5E5C1C76C14300CBF7C7 /* Collideable.m */; };
+		032E5E601C76C48D00CBF7C7 /* Plane.m in Sources */ = {isa = PBXBuildFile; fileRef = 032E5E5F1C76C48D00CBF7C7 /* Plane.m */; };
+		032E5E631C76DEDB00CBF7C7 /* MountainSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 032E5E621C76DEDB00CBF7C7 /* MountainSystem.m */; };
+		033B33D21C781EA700DF671A /* AvAudioPlayerPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 033B33D11C781EA700DF671A /* AvAudioPlayerPool.m */; };
+		033B33D61C7834DF00DF671A /* CollidableDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 033B33D51C7834DF00DF671A /* CollidableDrawer.m */; };
+		033FB54C1C7317D100206B97 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033FB54B1C7317D100206B97 /* SpriteKit.framework */; };
+		033FB5511C73190C00206B97 /* GamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 033FB5501C73190C00206B97 /* GamePlayScene.m */; };
+		033FB5541C731FFC00206B97 /* GameInfoScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 033FB5531C731FFC00206B97 /* GameInfoScene.m */; };
+		0379355F1C74389E00A3BC37 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 0379355E1C74389E00A3BC37 /* Sprites.atlas */; };
 		0381CC541C6C37B6008303D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0381CC531C6C37B6008303D5 /* main.m */; };
 		0381CC571C6C37B6008303D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0381CC561C6C37B6008303D5 /* AppDelegate.m */; };
 		0381CC5A1C6C37B6008303D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0381CC591C6C37B6008303D5 /* ViewController.m */; };
 		0381CC5D1C6C37B6008303D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0381CC5B1C6C37B6008303D5 /* Main.storyboard */; };
 		0381CC5F1C6C37B6008303D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0381CC5E1C6C37B6008303D5 /* Assets.xcassets */; };
 		0381CC621C6C37B6008303D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0381CC601C6C37B6008303D5 /* LaunchScreen.storyboard */; };
+		0381CC701C6C38DE008303D5 /* background_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0381CC6B1C6C38DE008303D5 /* background_music.mp3 */; };
+		0381CC711C6C38DE008303D5 /* coin_noise.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0381CC6C1C6C38DE008303D5 /* coin_noise.wav */; };
+		0381CC721C6C38DE008303D5 /* credits in Resources */ = {isa = PBXBuildFile; fileRef = 0381CC6D1C6C38DE008303D5 /* credits */; };
+		0381CC731C6C38DE008303D5 /* nuke_alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0381CC6E1C6C38DE008303D5 /* nuke_alarm.mp3 */; };
+		0381CC741C6C38DE008303D5 /* plane_lope.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0381CC6F1C6C38DE008303D5 /* plane_lope.mp3 */; };
+		0381CCAE1C6C3F84008303D5 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0381CCAD1C6C3F84008303D5 /* GameViewController.m */; };
+		0384ACDF1C743DF000C94D4E /* Planes.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 037935B41C743CDA00A3BC37 /* Planes.atlas */; };
+		0384ACE31C743E1900C94D4E /* plane_blue1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0384ACE01C743E1900C94D4E /* plane_blue1.png */; };
+		0384ACE41C743E1900C94D4E /* plane_blue2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0384ACE11C743E1900C94D4E /* plane_blue2.png */; };
+		0384ACE51C743E1900C94D4E /* plane_blue3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0384ACE21C743E1900C94D4E /* plane_blue3.png */; };
+		03B154B51C816A0F00DA92EF /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B154B41C816A0F00DA92EF /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030CB3431C6C6AD2004E0F3A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		032E5E5B1C76C14300CBF7C7 /* Collideable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collideable.h; sourceTree = "<group>"; };
+		032E5E5C1C76C14300CBF7C7 /* Collideable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Collideable.m; sourceTree = "<group>"; };
+		032E5E5E1C76C48D00CBF7C7 /* Plane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plane.h; sourceTree = "<group>"; };
+		032E5E5F1C76C48D00CBF7C7 /* Plane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plane.m; sourceTree = "<group>"; };
+		032E5E611C76DEDB00CBF7C7 /* MountainSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MountainSystem.h; sourceTree = "<group>"; };
+		032E5E621C76DEDB00CBF7C7 /* MountainSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MountainSystem.m; sourceTree = "<group>"; };
+		033B33D01C781EA700DF671A /* AvAudioPlayerPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvAudioPlayerPool.h; sourceTree = "<group>"; };
+		033B33D11C781EA700DF671A /* AvAudioPlayerPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvAudioPlayerPool.m; sourceTree = "<group>"; };
+		033B33D41C7834DF00DF671A /* CollidableDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollidableDrawer.h; sourceTree = "<group>"; };
+		033B33D51C7834DF00DF671A /* CollidableDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollidableDrawer.m; sourceTree = "<group>"; };
+		033FB54B1C7317D100206B97 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		033FB54F1C73190C00206B97 /* GamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GamePlayScene.h; path = ../GamePlayScene.h; sourceTree = "<group>"; };
+		033FB5501C73190C00206B97 /* GamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GamePlayScene.m; path = ../GamePlayScene.m; sourceTree = "<group>"; };
+		033FB5521C731FFC00206B97 /* GameInfoScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfoScene.h; sourceTree = "<group>"; };
+		033FB5531C731FFC00206B97 /* GameInfoScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameInfoScene.m; sourceTree = "<group>"; };
+		0379355E1C74389E00A3BC37 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Sprites.atlas; path = TapMyPlane/Sprites.atlas; sourceTree = "<group>"; };
+		037935B41C743CDA00A3BC37 /* Planes.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Planes.atlas; sourceTree = "<group>"; };
 		0381CC4F1C6C37B6008303D5 /* TapMyPlane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapMyPlane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0381CC531C6C37B6008303D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0381CC551C6C37B6008303D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +65,19 @@
 		0381CC5E1C6C37B6008303D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0381CC611C6C37B6008303D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0381CC631C6C37B6008303D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0381CC6B1C6C38DE008303D5 /* background_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = background_music.mp3; path = raw/background_music.mp3; sourceTree = "<group>"; };
+		0381CC6C1C6C38DE008303D5 /* coin_noise.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = coin_noise.wav; path = raw/coin_noise.wav; sourceTree = "<group>"; };
+		0381CC6D1C6C38DE008303D5 /* credits */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = credits; path = raw/credits; sourceTree = "<group>"; };
+		0381CC6E1C6C38DE008303D5 /* nuke_alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nuke_alarm.mp3; path = raw/nuke_alarm.mp3; sourceTree = "<group>"; };
+		0381CC6F1C6C38DE008303D5 /* plane_lope.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = plane_lope.mp3; path = raw/plane_lope.mp3; sourceTree = "<group>"; };
+		0381CCAC1C6C3F84008303D5 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		0381CCAD1C6C3F84008303D5 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		0384ACE01C743E1900C94D4E /* plane_blue1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane_blue1.png; path = Planes.atlas/plane_blue1.png; sourceTree = "<group>"; };
+		0384ACE11C743E1900C94D4E /* plane_blue2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane_blue2.png; path = Planes.atlas/plane_blue2.png; sourceTree = "<group>"; };
+		0384ACE21C743E1900C94D4E /* plane_blue3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane_blue3.png; path = Planes.atlas/plane_blue3.png; sourceTree = "<group>"; };
+		0384ACE81C74608800C94D4E /* Clickable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Clickable.h; sourceTree = "<group>"; };
+		03B154B31C816A0F00DA92EF /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		03B154B41C816A0F00DA92EF /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +85,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033FB54C1C7317D100206B97 /* SpriteKit.framework in Frameworks */,
+				030CB3441C6C6AD2004E0F3A /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		032E5E5A1C76C10800CBF7C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				032E5E5B1C76C14300CBF7C7 /* Collideable.h */,
+				032E5E5C1C76C14300CBF7C7 /* Collideable.m */,
+				032E5E5E1C76C48D00CBF7C7 /* Plane.h */,
+				032E5E5F1C76C48D00CBF7C7 /* Plane.m */,
+				032E5E611C76DEDB00CBF7C7 /* MountainSystem.h */,
+				032E5E621C76DEDB00CBF7C7 /* MountainSystem.m */,
+				033B33D01C781EA700DF671A /* AvAudioPlayerPool.h */,
+				033B33D11C781EA700DF671A /* AvAudioPlayerPool.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		033B33D31C7834B800DF671A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				033FB5521C731FFC00206B97 /* GameInfoScene.h */,
+				033FB5531C731FFC00206B97 /* GameInfoScene.m */,
+				033FB54F1C73190C00206B97 /* GamePlayScene.h */,
+				033FB5501C73190C00206B97 /* GamePlayScene.m */,
+				033B33D41C7834DF00DF671A /* CollidableDrawer.h */,
+				033B33D51C7834DF00DF671A /* CollidableDrawer.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		037935621C74391B00A3BC37 /* dumb.atlas */ = {
+			isa = PBXGroup;
+			children = (
+				0384ACE01C743E1900C94D4E /* plane_blue1.png */,
+				0384ACE11C743E1900C94D4E /* plane_blue2.png */,
+				0384ACE21C743E1900C94D4E /* plane_blue3.png */,
+			);
+			name = dumb.atlas;
+			sourceTree = "<group>";
+		};
 		0381CC461C6C37B6008303D5 = {
 			isa = PBXGroup;
 			children = (
-				0381CC511C6C37B6008303D5 /* TapMyPlane */,
+				037935B41C743CDA00A3BC37 /* Planes.atlas */,
+				037935621C74391B00A3BC37 /* dumb.atlas */,
+				0379355E1C74389E00A3BC37 /* Sprites.atlas */,
+				033FB54B1C7317D100206B97 /* SpriteKit.framework */,
+				030CB3431C6C6AD2004E0F3A /* QuartzCore.framework */,
 				0381CC501C6C37B6008303D5 /* Products */,
+				0381CC511C6C37B6008303D5 /* TapMyPlane */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +155,8 @@
 		0381CC511C6C37B6008303D5 /* TapMyPlane */ = {
 			isa = PBXGroup;
 			children = (
-				0381CC551C6C37B6008303D5 /* AppDelegate.h */,
-				0381CC561C6C37B6008303D5 /* AppDelegate.m */,
-				0381CC581C6C37B6008303D5 /* ViewController.h */,
-				0381CC591C6C37B6008303D5 /* ViewController.m */,
+				0381CCAB1C6C3F43008303D5 /* src */,
+				0381CC6A1C6C38CE008303D5 /* raw */,
 				0381CC5B1C6C37B6008303D5 /* Main.storyboard */,
 				0381CC5E1C6C37B6008303D5 /* Assets.xcassets */,
 				0381CC601C6C37B6008303D5 /* LaunchScreen.storyboard */,
@@ -77,6 +172,44 @@
 				0381CC531C6C37B6008303D5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0381CC6A1C6C38CE008303D5 /* raw */ = {
+			isa = PBXGroup;
+			children = (
+				0381CC6B1C6C38DE008303D5 /* background_music.mp3 */,
+				0381CC6C1C6C38DE008303D5 /* coin_noise.wav */,
+				0381CC6D1C6C38DE008303D5 /* credits */,
+				0381CC6E1C6C38DE008303D5 /* nuke_alarm.mp3 */,
+				0381CC6F1C6C38DE008303D5 /* plane_lope.mp3 */,
+			);
+			name = raw;
+			sourceTree = "<group>";
+		};
+		0381CCAB1C6C3F43008303D5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				03B154B01C81445C00DA92EF /* Controller */,
+				033B33D31C7834B800DF671A /* View */,
+				032E5E5A1C76C10800CBF7C7 /* Model */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		03B154B01C81445C00DA92EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0384ACE81C74608800C94D4E /* Clickable.h */,
+				0381CC581C6C37B6008303D5 /* ViewController.h */,
+				0381CC591C6C37B6008303D5 /* ViewController.m */,
+				0381CC551C6C37B6008303D5 /* AppDelegate.h */,
+				0381CC561C6C37B6008303D5 /* AppDelegate.m */,
+				0381CCAC1C6C3F84008303D5 /* GameViewController.h */,
+				0381CCAD1C6C3F84008303D5 /* GameViewController.m */,
+				03B154B31C816A0F00DA92EF /* SettingsViewController.h */,
+				03B154B41C816A0F00DA92EF /* SettingsViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +269,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0384ACDF1C743DF000C94D4E /* Planes.atlas in Resources */,
 				0381CC621C6C37B6008303D5 /* LaunchScreen.storyboard in Resources */,
 				0381CC5F1C6C37B6008303D5 /* Assets.xcassets in Resources */,
+				0384ACE51C743E1900C94D4E /* plane_blue3.png in Resources */,
+				0381CC731C6C38DE008303D5 /* nuke_alarm.mp3 in Resources */,
+				0381CC741C6C38DE008303D5 /* plane_lope.mp3 in Resources */,
+				0381CC701C6C38DE008303D5 /* background_music.mp3 in Resources */,
+				0381CC721C6C38DE008303D5 /* credits in Resources */,
+				0379355F1C74389E00A3BC37 /* Sprites.atlas in Resources */,
+				0381CC711C6C38DE008303D5 /* coin_noise.wav in Resources */,
+				0384ACE31C743E1900C94D4E /* plane_blue1.png in Resources */,
 				0381CC5D1C6C37B6008303D5 /* Main.storyboard in Resources */,
+				0384ACE41C743E1900C94D4E /* plane_blue2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +292,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				032E5E5D1C76C14300CBF7C7 /* Collideable.m in Sources */,
+				033FB5541C731FFC00206B97 /* GameInfoScene.m in Sources */,
+				032E5E601C76C48D00CBF7C7 /* Plane.m in Sources */,
+				03B154B51C816A0F00DA92EF /* SettingsViewController.m in Sources */,
+				033FB5511C73190C00206B97 /* GamePlayScene.m in Sources */,
+				033B33D21C781EA700DF671A /* AvAudioPlayerPool.m in Sources */,
+				0381CCAE1C6C3F84008303D5 /* GameViewController.m in Sources */,
 				0381CC5A1C6C37B6008303D5 /* ViewController.m in Sources */,
 				0381CC571C6C37B6008303D5 /* AppDelegate.m in Sources */,
+				033B33D61C7834DF00DF671A /* CollidableDrawer.m in Sources */,
+				032E5E631C76DEDB00CBF7C7 /* MountainSystem.m in Sources */,
 				0381CC541C6C37B6008303D5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -251,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,6 +452,7 @@
 				0381CC681C6C37B6008303D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
